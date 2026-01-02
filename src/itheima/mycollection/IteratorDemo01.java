@@ -14,7 +14,7 @@ public class IteratorDemo01 {
         coll.add("ddd");
 
         //获取迭代器对象，直接用之前创建的集合调用Iterator即可
-        //迭代器相当于一罐箭头指向索引处
+        //迭代器相当于一箭头指向索引处
 
         Iterator<String> it = coll.iterator();
 
