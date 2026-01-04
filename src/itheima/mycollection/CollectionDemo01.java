@@ -6,7 +6,7 @@ import java.util.Collection;
 public class CollectionDemo01 {
     public static void main(String[] args) {
         Collection<String> coll = new ArrayList<>();
-        //细节：如果我们要往lIst集合中添加数据，那么返回值永远返回true，因为其元素运行重复
+        //细节：如果我们要往lIst集合中添加数据，那么返回值永远返回true，因为其元素允许重复
         //细节;若是set，只有不重复的时候才返回true；重复返回false
         coll.add("aaa");
         coll.add("bbb");
