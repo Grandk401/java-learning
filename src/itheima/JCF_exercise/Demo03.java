@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Demo03 {
+public class
+Demo03 {
     public static void main(String[] args) {
         //班级里有n个学生，要求被点到的同学不再被点到
         //如果点完了，再次重新开始
